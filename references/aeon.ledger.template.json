@@ -1,0 +1,32 @@
+{
+  "daemon_name": "AEON-LORN-15X",
+  "kernel_version": "1.0.0-T0",
+  "operator": "Justice Gray Maciocha",
+  "omega_repo": "Lornt1666",
+  "apply_mode_default": false,
+  "t_interval_seconds_doctrine": 21600,
+  "n_variants_default": 1,
+  "lambda_novelty_default": 0.85,
+  "active_phase": "",
+  "last_wake_id": "",
+  "last_verdict": "",
+  "last_mode": "dry-run",
+  "last_receipt_pointer": "",
+  "standing_constraints": [
+    "Dry-run is default. Apply is an explicit operator verb in the same wake.",
+    "One cycle per wake. No while-True inside the agent.",
+    "Class 13 gates Class 11 and Class 15.",
+    "No secrets in files or commits.",
+    "Owner namespace is Lornt1666 only.",
+    "Flood cap of one new repo name per wake unless run-the-queue.",
+    "Ledger over chat.",
+    "Registered entrypoint is scripts/aeon_cycle.py."
+  ],
+  "products_do_not_smash": [
+    "Lornt1666/NEXUS-GENESIS-PRIME",
+    "Lornt1666/RegenExcalibur",
+    "Lornt1666/tcg"
+  ],
+  "holds": [],
+  "queue": []
+}
